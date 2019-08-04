@@ -35,6 +35,7 @@ class Fibonacci extends Component {
                     <input
                         type="number"
                         onChange={e => this.handleChange(e.target.value)}
+                        placeholder="Type number..."
                     />
                 </div>
                 <div className="disflex">

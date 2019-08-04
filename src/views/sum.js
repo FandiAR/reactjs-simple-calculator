@@ -34,12 +34,14 @@ class Sum extends Component {
                         type="number"
                         style={{ float: 'left' }}
                         onChange={e => this.handleChange(e.target.value)}
+                        placeholder="Type number..."
                     />
                     {'+'}
                     <input
                         type="number"
                         style={{ float: 'right' }}
                         onChange={e => this.change(e.target.value)}
+                        placeholder="Type number..."
                     />
                 </div>
                 <div className="disflex">

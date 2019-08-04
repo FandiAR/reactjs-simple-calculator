@@ -31,7 +31,11 @@ class Prime extends Component {
                     <label>Input:</label>
                 </div>
                 <div className="disflex">
-                    <input type="number" onChange={e => this.handleChange(e.target.value)} />
+                    <input
+                        type="number"
+                        onChange={e => this.handleChange(e.target.value)} 
+                        placeholder="Type number..."
+                    />
                 </div>
                 <div className="disflex">
                     <label style={{ marginTop: '40px' }}>Result</label>
